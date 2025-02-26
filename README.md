@@ -5,41 +5,24 @@
 ### Prerequisites
 Make sure you have the following installed on your system:
 - CMake (version 3.x or later)
-- A C++ compiler (GCC, Clang, MSVC, etc.)
-- Make or Ninja (if using Unix-based systems)
+- Visual Studio
 
-### Build the Project
-1. Navigate to the project's root directory.
-2. Create a `build` directory and navigate into it:
-   ```sh
-   mkdir build && cd build
-   ```
-3. Run CMake to configure the project:
-   ```sh
-   cmake ..
-   ```
-   Optionally, specify a build system:
-   ```sh
-   cmake .. -G "Unix Makefiles"
-   ```
-4. Build the project using the configured build system:
-   ```sh
-   cmake --build .
-   ```
+### Build the Project Using CMake GUI
+1. **Open CMake GUI**  
+   Launch CMake GUI on your system.
 
-### Run the Project
-After a successful build, execute the compiled binary:
-```sh
-./your_executable_name
-```
-On Windows, run:
-```sh
-your_executable_name.exe
-```
+2. **Select the Source Code Directory**  
+   - Click **"Browse Source"** and select your project's root directory (where your `CMakeLists.txt` is located).
 
-Replace `your_executable_name` with the actual name of the compiled binary.
+3. **Select the Build Directory**  
+   - Click **"Browse Build"** and select or create a new `build` directory (e.g., `your_project/build`).
 
----
+4. **Configure the Project**  
+   - Click **"Configure"**.
+   - Click **"Finish"** to generate the configuration files.
 
-Feel free to update this file as needed!
+5. **Generate the Build Files**  
+   - Click **"Generate"** to create the necessary build files.
 
+7. **Build the Project**  
+   - If using **Visual Studio**, open the generated `.sln` file.
