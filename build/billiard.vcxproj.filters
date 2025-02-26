@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\billiard\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\billiard\RigidBody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\billiard\Ball.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\billiard\Collision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\billiard\Cuestick.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\billiard\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\common\util.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\common\shader.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\common\camera.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\common\model.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\common\texture.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\common\light.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\billiard\RigidBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\billiard\Ball.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\billiard\Collision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\billiard\Cuestick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\billiard\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\common\util.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\common\shader.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\common\camera.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\common\model.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\common\texture.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\common\light.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\billiard\Depth.fragmentshader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\billiard\Depth.vertexshader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\billiard\ShadowMapping.fragmentshader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\okout\Programming Files\Graphics_2024_2025\billiard\billiard\ShadowMapping.vertexshader">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{EDD80D84-5AA6-3622-9466-4F8B7A68C7DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7CDDD329-8632-3733-914E-3FD2F36667AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{D8878428-FAD5-3076-85AB-5602C65CD4ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{52300DAB-AEC0-387E-B8B5-E6E0B9933870}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
