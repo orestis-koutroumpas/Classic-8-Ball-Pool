@@ -79,9 +79,6 @@ glm::mat4 Cuestick::calculateModelMatrix(glm::vec3 cueBallPos, float horizontalA
     if (spinMagnitude > 0.025f) {
         spinEffect = glm::normalize(spinEffect) * 0.025f;
     }
-    // Cue stick length offset
-    vec3 cueLengthOffset = -shotDirection * 0.75f;
-
     // Charge distance calculation
     float chargeDistance = 0.0f;
     if (chargingMode) {
@@ -92,7 +89,7 @@ glm::mat4 Cuestick::calculateModelMatrix(glm::vec3 cueBallPos, float horizontalA
     vec3 cuePowerOffset = -shotDirection * chargeDistance;
 
     // Final cue stick position with spin and charge effects
-    vec3 cuestickPos = cueBallPos + cueLengthOffset + cuePowerOffset + spinEffect;
+    vec3 cuestickPos = cueBallPos + cuePowerOffset + spinEffect;
 
     // Apply transformations
     return translate(mat4(1.0f), cuestickPos) * rotate(mat4(1.0f), angle, vec3(0.0f, 1.0f, 0.0f));
