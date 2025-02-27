@@ -11,7 +11,7 @@ This project is a 3D billiard game built using C++ and OpenGL. The game simulate
   - `Left-click` to charge the shot, with power determined by charge duration.
   - Cue ball spin can be adjusted by targeting specific areas.
 - **Turn-Based Gameplay**: The game alternates turns between two players.
-- **Game Rules Implementation** (Bonus): Following standard billiard rules.
+- **Game Rules Implementation** Following standard billiard rules.
 
 ### Controls
 - **Mouse Controls**:
