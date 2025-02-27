@@ -7,16 +7,16 @@ This project is a 3D billiard game built using C++ and OpenGL. The game simulate
 ### Game Mechanics
 - **Realistic Ball Physics**: The game implements collision detection and friction for accurate ball movement.
 - **Cue Stick Mechanics**:
-  - `Right-click` to enter aiming mode when all balls are stationary.
-  - `Left-click` to charge the shot, with power determined by charge duration.
+  - Right-click to enter aiming mode when all balls are stationary.
+  - Left-click to charge the shot, with power determined by charge duration.
   - Cue ball spin can be adjusted by targeting specific areas.
 - **Turn-Based Gameplay**: The game alternates turns between two players.
 - **Game Rules Implementation** Following standard billiard rules.
 
 ### Controls
 - **Mouse Controls**:
-  - Right-click: Enter aiming mode (when balls are stationary).
-  - Left-click (hold & release): Charge and release the shot.
+  - `Right-click`: Enter aiming mode (when balls are stationary).
+  - `Left-click` (hold & release): Charge and release the shot.
 - **Keyboard Controls**:
   - `W, A, S, D`: Move the camera.
   - `R`: Reset the game.
