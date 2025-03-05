@@ -4,7 +4,7 @@
 This project is a 3D billiard game built using C++ and OpenGL. The game simulates realistic billiard mechanics, including aiming, shooting, ball collisions, and spin effects. It also features lighting and shadow algorithms and free camera movement.
 
 ![Game Screenshot](assets/game_overview.png)  
-*A preview of the billiard game in action.*
+*A preview of the billiard game.*
 
 ## Features & Capabilities
 
