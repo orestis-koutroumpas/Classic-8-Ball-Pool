@@ -1,17 +1,41 @@
 # 3D Billiard Game (C++ & OpenGL)
 
 ## Overview
-This project is a 3D billiard game built using C++ and OpenGL. The game simulates realistic billiard mechanics, including aiming, shooting, ball collisions, and spin effects. It also features a dynamic lighting system with toggleable lights and free camera movement.
+This project is a 3D billiard game built using C++ and OpenGL. The game simulates realistic billiard mechanics, including aiming, shooting, ball collisions, and spin effects. It also features lighting and shadow algorithms and free camera movement.
+
+![Game Screenshot](assets/game_overview.png)  
+*A preview of the billiard game in action.*
 
 ## Features & Capabilities
-### Game Mechanics
-- **Realistic Ball Physics**: The game implements collision detection and friction for accurate ball movement.
-- **Cue Stick Mechanics**:
-  - Right-click to enter aiming mode when all balls are stationary.
-  - Left-click to charge the shot, with power determined by charge duration.
-  - Cue ball spin can be adjusted by targeting specific areas.
-- **Turn-Based Gameplay**: The game alternates turns between two players.
-- **Game Rules Implementation** Following standard billiard rules.
+
+### Camera System
+- Free camera movement to explore the table.
+- Overhead aiming mode for precise shots.
+
+### Lighting & Shadows
+- **Phong Lighting Model** implemented for smooth shading and realistic light reflections.
+- 10 evenly spaced lights around the pool table.
+- Each light can be toggled on/off using number keys 0-9.
+- Dynamic lighting and shadow effects enhance realism.
+- **Shadow Mapping** technique used to generate realistic shadows cast by the balls and cue stick.
+
+![Lights Off](assets/lights_off.png)
+*Lights toggled*
+
+### Physics Simulation
+- The game implements collision detection and friction for accurate ball movement.
+- Spin implementation determined by user.
+
+<p align="center">
+  <img src="assets/ball_collision.png" width="45%" alt="Ball Collision">
+  <img src="assets/ball_collision2.png" width="45%" alt="Spin Effect">
+</p>
+
+*Example of ball collision and spin effects.*
+
+### Game 
+- The game alternates turns between two players.
+- Follows standard billiard rules.
 
 ### Controls
 - **Mouse Controls**:
@@ -19,20 +43,11 @@ This project is a 3D billiard game built using C++ and OpenGL. The game simulate
   - `Left-click` (hold & release): Charge and release the shot.
 - **Keyboard Controls**:
   - `W, A, S, D`: Move the camera.
-  - `R`: Reset the game.
   - `Q`: Exit aiming mode.
   - `P`: Toggle 2D cue ball projection (for spin adjustment).
   - `I, K, J, L`: Adjust cue stick targeting position (for spin effects).
   - `0-9`: Toggle individual lights around the table.
-
-### Lighting & Shadows
-- 10 evenly spaced lights around the pool table.
-- Each light can be toggled on/off using number keys.
-- Dynamic lighting and shadow effects enhance realism.
-
-### Camera System
-- Free camera movement to explore the table.
-- Overhead aiming mode for precise shots.
+  - `R`: Reset the game.
 
 ## Build and Run Instructions
 
