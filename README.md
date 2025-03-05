@@ -69,12 +69,3 @@ Ensure you have the following installed:
    - Click "Generate".
 6. **Build the Project**
    - Open the generated `.sln` file in Visual Studio and build the project.
-
-## Future Enhancements
-- Enhanced AI for single-player mode.
-- Improved graphics and visual effects.
-- Multiplayer support via network play.
-
----
-This README provides a structured overview of the project, detailing both the development process and gameplay mechanics. Let me know if you'd like any modifications!
-
