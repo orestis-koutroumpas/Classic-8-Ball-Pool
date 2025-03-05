@@ -27,8 +27,8 @@ This project is a 3D billiard game built using C++ and OpenGL. The game simulate
 - Spin implementation determined by user.
 
 <p align="center">
-  <img src="assets/ball_collision.png" width="45%" alt="Ball Collision">
-  <img src="assets/ball_collision2.png" width="45%" alt="Spin Effect">
+  <img src="assets/ball_collision.png" width="50%" alt="Ball Collision">
+  <img src="assets/ball_collision2.png" width="50%" alt="Spin Effect">
 </p>
 
 *Example of ball collision and spin effects.*
